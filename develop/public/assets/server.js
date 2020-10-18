@@ -1,8 +1,14 @@
+const express = require('express');
+
+const app = express();
+
+
 const $noteTitle = $(".note-title");
 const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
 const $newNoteBtn = $(".new-note");
 const $noteList = $(".list-container .list-group");
+
 
 // activeNote is used to keep track of the note in the textarea
 const activeNote = {};
@@ -107,14 +113,14 @@ const handleRenderSaveBtn = function() {
 const renderNoteList = function(notes) {
   $noteList.empty();
 
-  var noteListItems = [];
+  const noteListItems = [];
 
-  for (var i = 0; i < notes.length; i++) {
-    var note = notes[i];
+  for (const i = 0; i < notes.length; i++) {
+    const note = notes[i];
 
-    var $li = $("<li class='list-group-item'>").data(note);
-    var $span = $("<span>").text(note.title);
-    var $delBtn = $(
+    const $li = $("<li class='list-group-item'>").data(note);
+    const $span = $("<span>").text(note.title);
+    const $delBtn = $(
       "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
     );
 
@@ -141,3 +147,7 @@ $noteText.on("keyup", handleRenderSaveBtn);
 
 // Gets and renders the initial list of notes
 getAndRenderNotes();
+
+app.listen(3001, () => {
+    console.log(`API server now on port 3001!`);
+});
