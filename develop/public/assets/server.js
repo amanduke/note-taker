@@ -147,6 +147,6 @@ $noteText.on("keyup", handleRenderSaveBtn);
 // Gets and renders the initial list of notes
 getAndRenderNotes();
 
-app.listen(3001, () => {
-    console.log(`API server now on port 3001!`);
+app.listen(5500, () => {
+    console.log(`API server now on port 5500!`);
 });
