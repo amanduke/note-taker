@@ -1,4 +1,5 @@
 const express = require('express');
+const PORT = process.env.PORT || 5500;
 const app = express()
 
 
@@ -37,6 +38,13 @@ const deleteNote = function(id) {
     method: "DELETE"
   });
 };
+
+
+app.post('/api/notes', (req, res) => {
+  // req.body where out incoming contest will be
+  console.log(req.body);
+  res.json(req.body);
+});
 
 // If there is an activeNote, display it, otherwise render empty inputs
 const renderActiveNote = function() {
@@ -148,6 +156,6 @@ $noteText.on("keyup", handleRenderSaveBtn);
 // Gets and renders the initial list of notes
 getAndRenderNotes();
 
-app.listen(5500, () => {
-    console.log(`API server now on port 5500!`);
+app.listen(PORT, () => {
+    console.log(`API server now on ports ${PORT}!`);
 });
