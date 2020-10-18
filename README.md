@@ -25,7 +25,7 @@ Run node server.js to launch application locally as pictured below.
 
 
 # Local Port
-App runs on PORT:8080 ensure that your url reads the following: localhost:5500 as pictured below.
+App runs on PORT:5500 ensure that your url reads the following: localhost:5500 as pictured below.
 
 
 
