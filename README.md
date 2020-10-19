@@ -25,7 +25,7 @@ Copy the repository from Github, by either creating a clone or downloading the z
 Run npm i to install required packages. 
 Run node server.js to launch application locally as pictured below. 
 
-![](note-taker-start-instructions.png)
+![](https://user-images.githubusercontent.com/65379991/96390239-bdefe100-1181-11eb-9ab9-dff6456e89f8.png)
 
 
 # Local Port
