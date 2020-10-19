@@ -19,8 +19,6 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 Deployed using Heroku https://best-note-taker-app.herokuapp.com/
 
-
-
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes: 
 
@@ -33,10 +31,7 @@ Run node server.js to launch application locally as pictured below.
 
 
 # Local Port
-App runs on PORT:5500 ensure that your url reads the following: localhost:5500 as pictured below.
-![] (https://user-images.githubusercontent.com/65379991/96390508-03f97480-1183-11eb-8c2f-edf5c53f82dc.png)
-
-
+App runs on PORT:5500 ensure that your url reads the following: localhost:5500
 
 
 # Built With
