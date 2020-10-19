@@ -3,7 +3,7 @@
 # Note Taker
 Note-Taker is a Node.js command-line application that deploys a note-taking application using an Express.js back end and retrieves note data from a JSON file.
 
-#Screenshots
+# Screenshots
 
 ![](https://user-images.githubusercontent.com/65379991/96390239-bdefe100-1181-11eb-9ab9-dff6456e89f8.png)
 ![](https://user-images.githubusercontent.com/65379991/96390243-bfb9a480-1181-11eb-89fa-6690f0ab1dc8.png)
