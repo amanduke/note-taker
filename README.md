@@ -3,6 +3,10 @@
 # Note Taker
 Note-Taker is a Node.js command-line application that deploys a note-taking application using an Express.js back end and retrieves note data from a JSON file.
 
+#Screenshots
+
+![](https://user-images.githubusercontent.com/65379991/96390239-bdefe100-1181-11eb-9ab9-dff6456e89f8.png)
+![](https://user-images.githubusercontent.com/65379991/96390243-bfb9a480-1181-11eb-89fa-6690f0ab1dc8.png)
 
 
 # User Story
@@ -30,6 +34,8 @@ Run node server.js to launch application locally as pictured below.
 
 # Local Port
 App runs on PORT:5500 ensure that your url reads the following: localhost:5500 as pictured below.
+![] ((https://user-images.githubusercontent.com/65379991/96390426-9c432980-1182-11eb-8534-6d6485670812.png)
+
 
 
 
